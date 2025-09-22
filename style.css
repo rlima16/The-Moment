@@ -2,7 +2,7 @@ body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
-  background: #fafafa;
+  background: #ff69b4; /* NOVO FUNDO ROSA */
   color: #333;
 }
 
@@ -37,11 +37,8 @@ nav a {
 .hero {
   text-align: center;
   padding: 60px 20px;
-  background: linear-gradient(135deg, #f8e1f4, #ffe8cc);
-}
-
-.hero h1 {
-  font-size: 28px;
+  background: #fff; /* Fundo branco para o banner */
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1); /* Sombra para destacar */
 }
 
 .btn {
@@ -61,6 +58,9 @@ nav a {
 .produtos {
   padding: 40px 20px;
   text-align: center;
+  background: #fff; /* Fundo branco para a seção de produtos */
+  margin-top: 40px; /* Espaçamento entre o hero e os produtos */
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
 }
 
 .grid {
@@ -95,6 +95,7 @@ footer {
   text-align: center;
   background: #333;
   color: white;
+  margin-top: 40px;
 }
 
 .cart {
@@ -131,7 +132,7 @@ footer {
   font-size: 24px;
   cursor: pointer;
   color: #888;
-  width: auto; /* Garante que não ocupe 100% da largura */
+  width: auto;
 }
 
 .close-btn:hover {
@@ -156,12 +157,10 @@ footer {
   clear: both;
 }
 
-/* Usado para esconder seções da loja e na lógica do PIX */
 .hidden {
   display: none !important;
 }
 
-/* Estilos para a tela de instruções do PIX */
 #pix-instructions {
   position: fixed;
   top: 0;
@@ -200,6 +199,6 @@ footer {
 }
 
 .pix-box button {
-    width: auto; /* Garante que os botões não ocupem 100% da largura */
+    width: auto;
     padding: 8px 15px;
 }
